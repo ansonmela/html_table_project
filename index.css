@@ -1,0 +1,60 @@
+table.table_data {
+	font-family: verdana, arial, sans-serif;
+	font-size: 30px;
+	color: #333333;
+	border-width: 1px;
+	border-color: #3A3A3A;
+	border-collapse: collapse;
+}
+
+table.table_data th {
+	border-width: 1px;
+	padding: 8px;
+	border-style: solid;
+	border-color: #FFA6A6;
+	background-color: #D56A6A
+	color: #ffffff;
+}
+
+table.table_data tr:hover td {
+	background-color: yellow;
+}
+
+table.table_data tr:nth-child(even) td{
+	background-color: #aaff80;
+}
+
+table.table_data td {
+	border-width: 1px;
+	padding: 8px;
+	border-style: solid;
+	border-color: #FFA6A6;
+	background-color: #ffffff;
+}
+
+td {
+	text-align: center;
+}
+
+th {
+	text-align: center;
+	color: black;
+}
+
+h1 {
+	font-family: Lucida Console;
+	font-size: 70px;
+	text-align: center;
+	color: black;
+}
+
+.table {
+	margin: auto;
+	width: 50%;
+	padding: 10px;
+	padding-left: auto;
+}
+
+body{
+	background-image: url("background-pine-texture-82256 (1).jpg");
+}
